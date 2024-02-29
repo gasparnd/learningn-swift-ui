@@ -9,7 +9,14 @@ import SwiftUI
 
 struct Tabviews: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            Containers().tabItem({
+                Image(systemName: "house")
+                Text("Home")})
+            TextMod().tabItem({
+                Image(systemName: "person.fill")
+                Text("Profile")})
+        }.background(Color.gray)
     }
 }
 

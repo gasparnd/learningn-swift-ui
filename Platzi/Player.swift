@@ -6,10 +6,21 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct Player: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                ZStack {
+                     
+                    NavigationLink(destination: VideoPlayer(player: AVPlayer(url: URL(string:"https://cdn.cloudflare.steamstatic.com/steam/apps/256705156/movie480.mp4")!)), label: {
+                        Image("cuphead").resizable().aspectRatio(contentMode: .fit)
+                    })
+                    Image(systemName: "play.fill").foregroundColor(Color.white).font(.largeTitle)
+                }
+            }.ignoresSafeArea()
+        }
     }
 }
 

@@ -11,6 +11,17 @@
 		EB1C63442B2E9B58003ADF0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1C63432B2E9B58003ADF0D /* ContentView.swift */; };
 		EB1C63462B2E9B59003ADF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1C63452B2E9B59003ADF0D /* Assets.xcassets */; };
 		EB1C63492B2E9B59003ADF0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1C63482B2E9B59003ADF0D /* Preview Assets.xcassets */; };
+		EB286CD12B6A5D3800F36959 /* ZstackPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB286CD02B6A5D3800F36959 /* ZstackPadding.swift */; };
+		EB286CD32B6A65C900F36959 /* Containers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB286CD22B6A65C900F36959 /* Containers.swift */; };
+		EB286CD72B6AC5F500F36959 /* Tabviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB286CD62B6AC5F500F36959 /* Tabviews.swift */; };
+		EB286CD92B6AC84500F36959 /* Navigations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB286CD82B6AC84500F36959 /* Navigations.swift */; };
+		EB286CDB2B6AD75400F36959 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB286CDA2B6AD75400F36959 /* Player.swift */; };
+		EB2FFF472B686476000E0030 /* TextMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2FFF462B686476000E0030 /* TextMod.swift */; };
+		EB2FFF4B2B686956000E0030 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2FFF4A2B686956000E0030 /* Buttons.swift */; };
+		EB2FFF4D2B687033000E0030 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2FFF4C2B687033000E0030 /* Images.swift */; };
+		EB2FFF4F2B6904CC000E0030 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2FFF4E2B6904CC000E0030 /* TextFields.swift */; };
+		EB2FFF512B690C79000E0030 /* Dividers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2FFF502B690C79000E0030 /* Dividers.swift */; };
+		EB2FFF552B69109E000E0030 /* HstackVstackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2FFF542B69109E000E0030 /* HstackVstackSpacer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		EB1C63432B2E9B58003ADF0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB1C63452B2E9B59003ADF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB1C63482B2E9B59003ADF0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB286CD02B6A5D3800F36959 /* ZstackPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZstackPadding.swift; sourceTree = "<group>"; };
+		EB286CD22B6A65C900F36959 /* Containers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Containers.swift; sourceTree = "<group>"; };
+		EB286CD62B6AC5F500F36959 /* Tabviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabviews.swift; sourceTree = "<group>"; };
+		EB286CD82B6AC84500F36959 /* Navigations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigations.swift; sourceTree = "<group>"; };
+		EB286CDA2B6AD75400F36959 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EB2FFF462B686476000E0030 /* TextMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMod.swift; sourceTree = "<group>"; };
+		EB2FFF4A2B686956000E0030 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		EB2FFF4C2B687033000E0030 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		EB2FFF4E2B6904CC000E0030 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		EB2FFF502B690C79000E0030 /* Dividers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dividers.swift; sourceTree = "<group>"; };
+		EB2FFF542B69109E000E0030 /* HstackVstackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HstackVstackSpacer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +77,17 @@
 				EB1C63432B2E9B58003ADF0D /* ContentView.swift */,
 				EB1C63452B2E9B59003ADF0D /* Assets.xcassets */,
 				EB1C63472B2E9B59003ADF0D /* Preview Content */,
+				EB2FFF462B686476000E0030 /* TextMod.swift */,
+				EB2FFF4A2B686956000E0030 /* Buttons.swift */,
+				EB2FFF4C2B687033000E0030 /* Images.swift */,
+				EB2FFF4E2B6904CC000E0030 /* TextFields.swift */,
+				EB2FFF502B690C79000E0030 /* Dividers.swift */,
+				EB2FFF542B69109E000E0030 /* HstackVstackSpacer.swift */,
+				EB286CD02B6A5D3800F36959 /* ZstackPadding.swift */,
+				EB286CD22B6A65C900F36959 /* Containers.swift */,
+				EB286CD62B6AC5F500F36959 /* Tabviews.swift */,
+				EB286CD82B6AC84500F36959 /* Navigations.swift */,
+				EB286CDA2B6AD75400F36959 /* Player.swift */,
 			);
 			path = Platzi;
 			sourceTree = "<group>";
@@ -138,7 +171,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1C63442B2E9B58003ADF0D /* ContentView.swift in Sources */,
+				EB2FFF512B690C79000E0030 /* Dividers.swift in Sources */,
 				EB1C63422B2E9B58003ADF0D /* PlatziApp.swift in Sources */,
+				EB2FFF552B69109E000E0030 /* HstackVstackSpacer.swift in Sources */,
+				EB2FFF4D2B687033000E0030 /* Images.swift in Sources */,
+				EB286CDB2B6AD75400F36959 /* Player.swift in Sources */,
+				EB286CD32B6A65C900F36959 /* Containers.swift in Sources */,
+				EB286CD72B6AC5F500F36959 /* Tabviews.swift in Sources */,
+				EB286CD92B6AC84500F36959 /* Navigations.swift in Sources */,
+				EB2FFF472B686476000E0030 /* TextMod.swift in Sources */,
+				EB2FFF4B2B686956000E0030 /* Buttons.swift in Sources */,
+				EB2FFF4F2B6904CC000E0030 /* TextFields.swift in Sources */,
+				EB286CD12B6A5D3800F36959 /* ZstackPadding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
